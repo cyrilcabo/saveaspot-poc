@@ -1,0 +1,40 @@
+{
+  "spaces": [
+    {
+      "id": 1,
+      "location": {
+        "name": "SM Downtown",
+        "spot": "3F-4A",
+        "address": "Avenida Veteranos, Tacloban City"
+      },
+      "available": true
+    },
+    {
+      "id": 2,
+      "location": {
+        "name": "Robinsons Marasbaras",
+        "spot": "GF-2B",
+        "address": "Marasbaras, Tacloban City"
+      },
+      "available": true
+    },
+    {
+      "id": 81635,
+      "location": {
+        "name": "Robinsons North",
+        "address": "Abucay, Tacloban City",
+        "spot": "4A-4D"
+      },
+      "available": false
+    },
+    {
+      "id": 45408,
+      "location": {
+        "name": "Robinsons Mid",
+        "address": "Downtown, Tacloban City",
+        "spot": "4A-4E"
+      },
+      "available": false
+    }
+  ]
+}

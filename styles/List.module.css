@@ -1,0 +1,18 @@
+.root {
+  background-color: ghostwhite;
+  min-height: 100vh;
+  padding: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.root h3 {
+  font-weight: 600;
+}
+
+.root ul {
+  background-color: white;
+  min-height: 300px;
+  padding-bottom: 20px;
+}
