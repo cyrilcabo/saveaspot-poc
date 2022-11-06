@@ -1,10 +1,12 @@
 import Head from 'next/head'
+import { useRouter } from 'next/router';
 
 import { Typography, Button } from '@mui/material';
 
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const router = useRouter();
   return (
     <div className={styles.container}>
       <Head>
@@ -18,7 +20,7 @@ export default function Home() {
           Welcome to {' '}
           <span style={{ color: 'green' }}>Save</span>A<span style={{ color: 'blue' }}>Spot</span>!    
         </Typography> 
-        <Button className={styles.btn} variant="contained" size="large">
+        <Button className={styles.btn} variant="contained" size="large" onClick={() => router.push('/spaces')}>
           Proceed
         </Button>
       </div>
