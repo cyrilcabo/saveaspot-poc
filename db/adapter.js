@@ -6,9 +6,10 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 
 const file = join(__dirname, 'db.json');
-console.log('huh', __dirname, file);
 const adapter = new JSONFile(file);
 const db = new Low(adapter);
+
+console.log('huh again', db);
 
 async function getDb () {
   if (!db.data) {
