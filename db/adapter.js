@@ -12,7 +12,7 @@ async function getDb () {
   if (!db.data) {
     await db.read();
   }
-  return db || { spaces: [] };
+  return db || { data: { spaces: [] } };
 }
 
 export default getDb;
