@@ -5,11 +5,11 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 
-const file = join(__dirname, 'db.json');
-const adapter = new JSONFile(file);
+// const file = join(__dirname, 'db.json');
+const adapter = new JSONFile('./db.json');
 const db = new Low(adapter);
 
-console.log('huh again', db);
+console.log('huh again', db, adapter);
 
 async function getDb () {
   if (!db.data) {
